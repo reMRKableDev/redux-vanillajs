@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux Vanilla</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css"
+    />
+  </head>
+  <body>
+    <!-- User Interface -->
+    <div class="container">
+      <select id="filter-selector">
+        <option value="SHOW_ALL">Show all</option>
+        <option value="SHOW_TODO">Show todo</option>
+        <option value="SHOW_DONE">Show done</option>
+      </select>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+    <script src="./redux.js"></script>
+  </body>
+</html>
