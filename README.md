@@ -1,2 +1,4 @@
 # redux-vanillajs
-Using Redux with Vanilla.js (No React)
+A Todo-list built using Redux and Vanilla.js. 
+
+
